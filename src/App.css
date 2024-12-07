@@ -1,3 +1,9 @@
+.body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:lightblue;
+}
 .App {
   text-align: center;
 }
@@ -6,6 +12,21 @@
   height: 40vmin;
   pointer-events: none;
 }
+.fa-trash{
+  color:rgb(67, 49, 49);
+}
+.fa-trash:hover{
+  color: rgb(255, 3, 3);
+  cursor: pointer;
+}
+.fa-regular{
+  color:rgb(18, 2, 248);
+}
+.fa-regular:hover{
+  color: rgb(255, 3, 3);
+  cursor: pointer;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
